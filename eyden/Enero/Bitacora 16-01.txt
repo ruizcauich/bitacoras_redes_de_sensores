@@ -1,0 +1,16 @@
+
+Bitacora : 
+
+* Se hizo montó el circuito en la protoboard conectando un sensor de temperatura y humedad DHT22 para hacer las pruebas de subida de datos a la plataforma
+  mediante el arduino ethernet que está siendo usado mediante un ftdi
+
+* El código del archivo nodo_ardEth_... .ino fue configurado para leer de un sensor de temperatura y humedad DHT22. Fue necesario instalarse las librerias 
+  correspondientes para el uso y programación de este sensor.
+
+* Fue instalado en el equipo el driver FT232R USB UART Driver
+
+* El código fue compilado y subido, para la espera de la configuración del raspberry.
+
+** Dos imagenes tomadas con el teléfono para adjuntar **
+
+
