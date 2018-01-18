@@ -1,0 +1,6 @@
+-Se inicio el proyecto el día lunes 15 de Enero del 2018
+-Se dio instrucciones de revisar el arduino FIO que se encontraban en placas ya hechas anteriormente.
+-Verificar que funcionará y revisar el diagrama de conexión que se tenía.
+-Además de revisar el código que nos paso el profesor para analizar el funcionamiento.
+
+-Link de donde se descargo el XCTU para la configuración de los dispositivos de XBee https://www.digi.com/products/xbee-rf-solutions/xctu-software/xctu
