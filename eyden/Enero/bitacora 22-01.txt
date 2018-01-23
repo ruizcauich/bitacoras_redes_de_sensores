@@ -1,0 +1,12 @@
+Bitacora:
+
+	* sudo poweroff
+
+	* Hoy después de hablar con al maestro agustín y enseñarle los avances, nos dijo como ibamos a darle seguimiento al proyecto.
+	  Los nodos de la red de sensores deberán estar leyendo y enviando datos a un nodo coordinador, este nodo enviará los datos a la plataforma.
+
+	* Dado que la base de datos de la plataforma actual tiene un diseño demasiado arraigado a la solución sobre el monitoreo de la calidad del agua
+	  empezamos a ver como podemos usar/adecuarla para que guarde datos de los dispositivos que guardan datos de otro tipo de sensores (humedad/tierra y 
+	  temperatura/humedad ambiente).
+
+	* Estamos a la espera del equipo de hardware

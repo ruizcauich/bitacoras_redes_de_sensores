@@ -1,0 +1,13 @@
+Bitacora : 
+
+* Creé una cuenta en mendeley para manejar todos los documentos fuente y referencias que están siendo usados en el proyecto, mi compañero carlos guillermo ha intentado
+  crear el repositorio para que los miembros del equipo empecemos a colaborar sin embargo la página reporta un bug. Sin embargo descargue una guia completa sobre el uso
+  de esta herramiento así como también descargue mendeley desktop para manejar de forma mas cómoda y confiable todas las referencias.
+
+* Antes de empezar a hacer las pruebas, se configuró en el servidor una ip estática para poder hacer la conexión con el cliente, cuya ip es 192.168.0.2 y el del servidor siendo
+  192.168.0.5
+	
+* Despues de que el todas las dependencias estuvieron instaladas en el servidor (raspberry pi) (django,wheel,python 2.7,etc) se ejecutó el código del cliente arduino ethernet
+  que leía los valores de la temperatura y por medio de comunicación ethernet envia peticiones get para guardar datos de temperatura en la base de datos redes_sensores_db
+
+* Se encontró una falla en el código del cliente ya que no estabamos leyendo el response del servidor por lo que el cliente 

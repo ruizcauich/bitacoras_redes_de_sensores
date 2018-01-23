@@ -1,0 +1,21 @@
+Bitacora : 
+
+* Para hacer las pruebas de envio de datos al servidor (que en este caso será la raspberry pi) este se condionó con todas las dependencias 
+  que necesita la plataforma de datos.
+
+* Intenté comprobar que el arduino ethernet tenga el código correcto para enviar los datos. Para ellos se conecto con el equipo mediante ethernet
+  y al equipo se le configuró una ip estática para que funcione como servidor
+
+* Se levantó el servidor de django y se corrió el código del cliente en el arduino ethernet, aunque no pudo ser establecida la conexión
+
+* Intenté poner la plataforma en modo producción cambiando la variable DEBUG a False en el archivo settings.py dentro del proyecto y agregando en la 
+  lista ALLOW_HOSTS la lista de ip's a las que el servidor iba a escuchar, entre ellas la ip configurada en el arduino ethernet. Aunque esto tampoco
+  ha funcionado.
+
+* Se encontró otro error y es que el servidor de django en mi equipo no está reconociendo los demás hosts indicados en la variable ALLOW_HOSTS sin embargo
+  parece que en el equipo de mi compañero augusto si le funcionó.
+
+* Pudimos confirmar que el arduino envia datos a la plataforma y los almacena en la base de datos correctamente. sin embargo los guarda en la tabla _datosdenodo
+  no se está guardando la temperatura obtenida por el cliente.
+
+* augusto ahora me insinua sus propuestas sexuales, procedí a rechazarlo y a invitarla que se las haga a katia.
