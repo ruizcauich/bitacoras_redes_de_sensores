@@ -1,0 +1,24 @@
+Bitacora:
+
+	* Una vez que probamos con una página que valido nuestra cadena como un formato aceptado o adecuado para json
+	conectamos el arduino el servidor para empezar a hacer pruebas.
+
+	* Antes de esto, agregue una nueva url() en el proyecto de django (plataforma) en la cual va a recibir esta cadena desde el nodo coordinador
+	
+	* Programé la vista guardar_json() en la plataforma únicamente para que al recibir esta cadena, la convirtiera en un json 
+	y que por medio de un HttpResponse() nos pudiera enseñar el contenido de la cadena y que ver que esta esté correcta.
+
+	* El servidor nos dio varios errores y excepciones.
+
+	* augusto está ayudandome a corregir mi vista y asegurarnos de que el problema no está en como el servidor recibe la cadena.
+
+	* Por su parte el equipo de hardware también está verificando que el código del nodo coordinador también esté correcto y que este enviando 
+	correctamente la cadena.
+
+	* Con ayuda de postman estamos verificando los datos.
+
+	* augusto me ayudo a corregir la vista sin embargo sigue habiendo algunos errores en el servidor.
+
+	* Probamos nuevamente y se empezáron a enviar cadenas en formato json que el servidor porfin está leyendo correctamente.
+
+	* Comprobamos esto imprimiendo la mac del nodo coordinador y nos percatamos que era correcta.

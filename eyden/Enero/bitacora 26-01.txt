@@ -1,0 +1,13 @@
+Bitacora:
+
+	* Empezé a ayudar a mi compañero rolon para adecuar el código para enviar una cadena en formato json que como dije días antes
+	será leída desde el servidor como un objeto json haciendo uso de la librería de python json 
+
+	* La cadena se formó correctamente aunque estamos teniendo problemas al envío de esta por una petición post, aun no sabemos por que
+	estamos revisando ejemplos de cabeceras http post para comparar y revisar en caso de algún error.
+
+	* Encontramos el error y este en una parte de la cabecera teníamos que haber enviado el tamaño de la cadena en algo como cadena.lenght
+	esto para que el servidor pueda leer correctamente cada uno de los caracteres de la cadena que estamos mandando
+
+	* En esta cadena se envía la mac del coordinador, el id del endDevice que está generando la lectura del sensor, así como tambíen todas las 
+	lecturas que los sensores están generando al interior de la sala.

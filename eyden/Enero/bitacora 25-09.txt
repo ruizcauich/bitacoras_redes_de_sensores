@@ -1,0 +1,14 @@
+Bitacora: 
+
+	* Ya que la base de datos está arraigada a los antiguos dispositivos se probó usar los mismos campos pero 
+	enviando los datos de otros sensores, solamente para no tener que hacer (por ahora) un cambio en la estructura de toda
+	la base de datos.
+	
+	*En la junta el profesor agustín nos dijo que una vez lograda la comunicación a los end Devices desde el nodo coordinador y que este
+	envíe dichos datos al servidor, se deben de tratar los request del nodo coordinador al servidor como peticiones post y enviando un archivo json
+	o una cadena que sea leería desde el otro lado (desde el lado del servidor) como un json.
+
+	* Tanto el equipo de hardware como el de software ha dedicado una parte de el día de hoy para documentarse sobre el tratado de archivos json 
+	en python, o django así como en arduino.
+
+	* Se empezó la codificación del código del nodo coordinador para que este mande una cadena con formato json.
