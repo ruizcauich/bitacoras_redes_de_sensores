@@ -1,0 +1,12 @@
+	Bitacora : 
+
+
+	 * Llegamos a las 10 de la mañana, ya que hubo reunión de maestros y no hubo labores. El profesor agustín llegó a las 10:30 y nos abrío el centro de innovación
+
+	* les dimos el código del arduino ethernet que será el nodo coordinador para que ellos procedan a agregarle su parte del código que permitirá la comunicación
+	   y el envio de datos con todos los end devices asociados con el coordinador.
+
+	* Una vez que esto se logre, de los datos que recogerán los end devices, serán enviadas al nodo coordinador por medio de comunicación Xbee para después mas tarde
+	  el coordinador pueda enviar estos datos por medio de una petición post al servidor
+
+	* Esto que se había logrado hacer con una petición get ahora debe ser una petición post.

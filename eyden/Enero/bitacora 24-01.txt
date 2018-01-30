@@ -1,0 +1,10 @@
+
+Bitacora: 
+	
+	* El equipo de hardware terminó de configurar el código del Xbee en el nodo coordinador
+
+	* Volvimos a probar que los endDevices enviaran datos al  nodo coordinador y que este los leyera
+
+	* Logramos que el nodo coordinador pudiera porfin subir los datos recabados por los endDevices a la plataforma y estos se guardaran en la base de datos.
+
+	* aplique las migragraciones correspondientes a la base  de datos despues de haberle hecho los ajustes.

@@ -1,0 +1,20 @@
+Bitacora: 
+
+	* Acompletamos el código del cliente que en este caso sera usado como el nodo coordinador que estará comunicandose
+	via Xbee con los end Devices (Encargados de recolectar los datos) con la lectura el código que el servidor hacia con el 
+	response y gracias a esté código el envio de peticiones get por parte del cliente al servidor raspberry empezó a darse
+
+	* Le proporcione este código al equipo de hardware que ahora mismo está trabajando con él para adaptarlo y hacer las configuraciones
+	necesarias para que este pueda hacer uso de la comunicación Xbee.
+
+	* Hasta este momento estoy ayudando a mi compañero rolon con el adaptado de este código.
+
+	* El código marca un par de errores en la compilación que estamos investigando y tratando de corregir.
+
+	* La no compilación se debía a que mi compañero rolon no tenía las librerías descargadas e instaladas en su computadora que el código del
+	que el cliente (ahora nodo coordinador).
+
+	* Se descargaron e instalaron las librerías y el código ahora compila sin embargo se necesita probar ahora con los endDevices para dar cuenta
+	que sigue funcionando el envio de datos por Xbee con el código nuevo
+
+	*Se logró la conexión y el envio de datos satisfactoriamente.
